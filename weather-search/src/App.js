@@ -51,7 +51,7 @@ if(result.cod === "404") {
 }
 
 fetchApi()
-
+// eslint-disable-next-line
 },[fetch]);
 
 let component;

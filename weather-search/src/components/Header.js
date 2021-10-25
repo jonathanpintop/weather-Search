@@ -7,8 +7,18 @@ const Header = ({title}) => {
            
         </nav>
     )
+
+
 }
 
-export default Header
+
+
+Header.protoTypes = {
+    title: PropTypes.string.isRequired
+}
+
+
+
+export default Header;
 
 
