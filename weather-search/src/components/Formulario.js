@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const Formulario = ({ busqueda, guardarBusqueda, guardarConsultar }) => {
  
   
-  // state del Formulario
+  // state del Formulario probando nueva feature
 
   const [error, guardarError] = useState(false);
 
